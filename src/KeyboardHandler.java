@@ -3,12 +3,7 @@ import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
-import org.academiadecodigo.simplegraphics.pictures.Picture;
-
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.io.*;
-import java.security.Key;
 import java.util.*;
 
 
@@ -104,7 +99,7 @@ public class KeyboardHandler implements org.academiadecodigo.simplegraphics.keyb
             }
 
         } catch(Exception error) {
-            System.out.println(error);
+            System.out.println(error.getMessage());
         }
 
         Keyboard keyboard = new Keyboard(this);
@@ -436,6 +431,8 @@ public class KeyboardHandler implements org.academiadecodigo.simplegraphics.keyb
         }
 
         if(e.getKey() == KeyboardEvent.KEY_K){
+            File mapToRead = new File("resources/Map");
+
             try {
                 File map = new File("resources/Map");
                 FileOutputStream fileOutputStream = new FileOutputStream(map);
@@ -448,11 +445,10 @@ public class KeyboardHandler implements org.academiadecodigo.simplegraphics.keyb
 
                 //System.out.println("Saved");
             } catch(Exception error) {
-                System.out.println(error);
+                System.out.println(error.getMessage());
             }
 
             try {
-                File mapToRead = new File("resources/Map");
                 FileInputStream fileInputStream = new FileInputStream(mapToRead);
                 ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
@@ -503,12 +499,13 @@ public class KeyboardHandler implements org.academiadecodigo.simplegraphics.keyb
                 }
 
             } catch(Exception error) {
-                System.out.println(error);
+                System.out.println(error.getMessage());
             }
         }
 
         if(e.getKey() == KeyboardEvent.KEY_L) {
-            System.out.println("Load");
+            File mapToRead = new File("resources/Map");
+            //System.out.println("Load");
 
             for(Integer key : this.list.keySet()){
                 this.list.get(key).setColor(Color.DARK_GRAY);
@@ -516,7 +513,6 @@ public class KeyboardHandler implements org.academiadecodigo.simplegraphics.keyb
             }
 
             try {
-                File mapToRead = new File("resources/Map");
                 FileInputStream fileInputStream = new FileInputStream(mapToRead);
                 ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
@@ -562,7 +558,7 @@ public class KeyboardHandler implements org.academiadecodigo.simplegraphics.keyb
                 }
 
             } catch(Exception error) {
-                System.out.println(error);
+                System.out.println(error.getMessage());
             }
         }
 
