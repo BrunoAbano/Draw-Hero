@@ -9,14 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc18ba0-ec57-4158-8aec-0b99501cf969" name="Changes" comment="Minor Changes" />
+    <list default="true" id="1cc18ba0-ec57-4158-8aec-0b99501cf969" name="Changes" comment=".gitignore changes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zxPJPG9bIwKNeEkXhONtzeewc5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -71,7 +74,7 @@
       <workItem from="1635458300611" duration="1195000" />
       <workItem from="1635459526487" duration="28000" />
       <workItem from="1641862919786" duration="2015000" />
-      <workItem from="1641865095565" duration="301000" />
+      <workItem from="1641865095565" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="Minor Changes">
       <created>1641864867921</created>
@@ -80,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641864867921</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".gitignore changes">
+      <created>1641865776042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641865776042</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Minor Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor Changes" />
+    <MESSAGE value=".gitignore changes" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore changes" />
   </component>
 </project>
