@@ -1,8 +1,8 @@
-# Map Editor
+# Draw Hero
 This project consists of an artboard that allows to draw with the square cursor.
 
 ## How to use
-+ WASD - to navigage
++ WASD - to navigate
 + C - clear the artboard
 + R - to change the colors
 + L - to load last saved map

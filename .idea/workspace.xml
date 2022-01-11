@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc18ba0-ec57-4158-8aec-0b99501cf969" name="Changes" comment=".gitignore changes" />
+    <list default="true" id="1cc18ba0-ec57-4158-8aec-0b99501cf969" name="Changes" comment="refactoring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +74,7 @@
       <workItem from="1635458300611" duration="1195000" />
       <workItem from="1635459526487" duration="28000" />
       <workItem from="1641862919786" duration="2015000" />
-      <workItem from="1641865095565" duration="972000" />
+      <workItem from="1641865095565" duration="1329000" />
     </task>
     <task id="LOCAL-00001" summary="Minor Changes">
       <created>1641864867921</created>
@@ -94,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641865798602</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactoring">
+      <created>1641866377732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641866377732</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +128,7 @@
     </ignored-roots>
     <MESSAGE value="Minor Changes" />
     <MESSAGE value=".gitignore changes" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore changes" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>
