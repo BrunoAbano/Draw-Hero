@@ -1,8 +1,6 @@
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Game game = new Game(40, 40);
-
-        Thread.sleep(1500);
 
         game.init();
     }

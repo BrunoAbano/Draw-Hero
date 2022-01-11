@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc18ba0-ec57-4158-8aec-0b99501cf969" name="Changes" comment="refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="1cc18ba0-ec57-4158-8aec-0b99501cf969" name="Changes" comment="readme changes">
+      <change beforePath="$PROJECT_DIR$/src/KeyboardHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyboardHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <workItem from="1635458300611" duration="1195000" />
       <workItem from="1635459526487" duration="28000" />
       <workItem from="1641862919786" duration="2015000" />
-      <workItem from="1641865095565" duration="1329000" />
+      <workItem from="1641865095565" duration="1680000" />
     </task>
     <task id="LOCAL-00001" summary="Minor Changes">
       <created>1641864867921</created>
@@ -104,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641866377732</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="readme changes">
+      <created>1641866472143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641866472143</updated>
+    </task>
+    <task id="LOCAL-00006" summary="readme changes">
+      <created>1641866574752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641866574752</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +143,7 @@
     <MESSAGE value="Minor Changes" />
     <MESSAGE value=".gitignore changes" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="readme changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme changes" />
   </component>
 </project>

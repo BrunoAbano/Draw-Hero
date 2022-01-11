@@ -185,14 +185,14 @@ public class KeyboardHandler implements org.academiadecodigo.simplegraphics.keyb
     private void up(){
         if(this.player.getY() != this.player1.getPADDING()){
             this.player.translate(0, -this.player1.getPlayerSize());
-            this.playerLocation += -this.player1.getRows();
+            this.playerLocation -= this.player1.getRows();
         }
     }
 
     private void down(){
         if(this.player.getY() != this.height - this.player1.getPADDING()){
             this.player.translate(0, this.player1.getPlayerSize());
-            this.playerLocation += +this.player1.getRows();
+            this.playerLocation += this.player1.getRows();
         }
     }
 
