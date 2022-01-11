@@ -5,8 +5,8 @@ This project consists of an artboard that allows to draw with the square cursor.
 + WASD - to navigate
 + C - clear the artboard
 + R - to change the colors
-+ L - to load last saved map
-+ K - to save current map
++ L - to load last saved artboard
++ K - to save current artboard
 + Space - to color or uncolor
 
 ## Setup
